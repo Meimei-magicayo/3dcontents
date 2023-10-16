@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectChange : MonoBehaviour
 {
@@ -27,66 +28,81 @@ public class ObjectChange : MonoBehaviour
     GameObject OldObj;
     public void OnClick()
     {
-        for (int i = start; i <= end; i++)
+        /* for (int i = start; i <= end; i++)
+         {
+             numbers.Add(i);
+         }
+
+
+         while (n==1) { 
+             int index = Random.Range(0, numbers.Count);
+
+             int ransu = numbers[index];
+
+             if (ransu == 0 && a != 0)
+             {
+                 if (number != 0)
+                 {
+                     Destroy(OldObj);
+                 }
+                 OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
+                 numbers.RemoveAt(index);
+                 n = 0;
+
+             }
+
+
+
+             else if (ransu == 1 )
+             {
+                 if (number != 0)
+                 {
+                     Destroy(OldObj);
+                 }
+
+                 OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
+                 numbers.RemoveAt(index);
+                 n = 0;
+
+             }
+             else if (ransu == 2)
+             {
+                 if (number != 0)
+                 {
+                     Destroy(OldObj);
+                 }
+                 OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
+                 numbers.RemoveAt(index);
+                 n = 0;
+
+             }
+             else if (ransu== 3)
+             {
+                 if (number != 0)
+                 {
+                     Destroy(OldObj);
+                 }
+                 OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
+                 numbers.RemoveAt(index);
+                 n = 0;
+             }        
+
+
+
+
+
+         }
+
+
+
+
+          number++;*/
+
+        if (number >=gameObjects.Length)
         {
-            numbers.Add(i);
+            SceneManager.LoadScene("tytle");
         }
-
-        while (numbers.Count > 0)
-        {
-
-            int index = Random.Range(0, numbers.Count);
-
-            int ransu = numbers[index];
-            if (ransu == 0)
-            {
-                Destroy(OldObj);
-                OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
-                //a = 0;
-                break;
-            }
-
-
-
-            else if (ransu == 1)
-            {
-                if (number != 0)
-                {
-                    Destroy(OldObj);
-                }
-
-                OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
-                //b = 0;
-                break;
-            }
-            else if (ransu == 2)
-            {
-                if (number != 0)
-                {
-                    Destroy(OldObj);
-                }
-                OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
-                break;
-            }
-            else if (ransu== 3)
-            {
-                if (number != 0)
-                {
-                    Destroy(OldObj);
-                }
-                OldObj = Instantiate(gameObjects[ransu], new Vector3(0, 0, 0), Quaternion.identity);
-            }
-            numbers.RemoveAt(index);
-            break;
-        }
-
-
-        
-
-         number++;
-
-
-        /*if (number == 0)
+        if (number == 0)
         {
             OldObj=Instantiate(gameObjects[0], new Vector3(0, 0, 0), Quaternion.identity);
             
@@ -112,7 +128,7 @@ public class ObjectChange : MonoBehaviour
             OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, 0), Quaternion.identity);
         }
 
-      number++;*/
+      number++;
     }
 
     public void OnReset()
