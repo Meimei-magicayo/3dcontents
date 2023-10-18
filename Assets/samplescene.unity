@@ -999,11 +999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40d810e847e8440dac2fd1199d8cb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObjects:
-  - {fileID: 1091367785552942814, guid: 9f4a8cb452004456aa40d71bfcca9cba, type: 3}
-  - {fileID: 1000777166219249992, guid: 0ee42662ab0434c898ee1671bceebca1, type: 3}
-  - {fileID: 1356657022214544184, guid: 986d208e83568436ca27578359ae6cca, type: 3}
-  - {fileID: 7643588960232852660, guid: 6d613a779a138478f8c4f0d8df08c5ad, type: 3}
+  gameObjects: {fileID: 0}
 --- !u!1 &1120719289
 GameObject:
   m_ObjectHideFlags: 0
