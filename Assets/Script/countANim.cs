@@ -25,15 +25,31 @@ public class countanim : MonoBehaviour
         {
                 animator.SetBool("Hello",false);
         }
-        else if (time < 15f && time >= 9f)
+        else if (time < 16f && time >= 9f)
         {
             animator.SetBool("Talk", true);
         }
-        else if (time >= 15f)
+        else if (time<18f&&time >= 16f)
         {
             animator.SetBool("Talk", false);
         }
-
+        else if (time < 21f && time >= 18f)
+        {
+            animator.SetBool("Good", true);
+        }
+        else if (time < 24f && time >= 21f)
+        {
+            animator.SetBool("Good", false);
+        }
+        else if (time < 27f && time >= 24)
+        {
+            animator.SetBool("Point", true);
+        }
+        else if (time < 30f && time >= 27)
+        {
+            animator.SetBool("Point", false);
+            time = 0;
+        }
     }
 
 
