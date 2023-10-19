@@ -104,7 +104,7 @@ public class ObjectChange : MonoBehaviour
         }
         if (number == 0)
         {
-            OldObj=Instantiate(gameObjects[0], new Vector3(0, 40, -470), Quaternion.Euler(0,180,0));
+            OldObj=Instantiate(gameObjects[0], new Vector3(0, -10, -470), Quaternion.Euler(0,180,0));
             
         }
            

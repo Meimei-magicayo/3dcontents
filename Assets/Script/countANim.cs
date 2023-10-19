@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class countanim : MonoBehaviour
 {
-    float time;
+    float time=0;
     Animator animator;
-    int i = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,27 +15,26 @@ public class countanim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        if (time % 3 == 0)
+        this.time += Time.deltaTime;
+        if (time<6f&&time >=3)
         {
-            i++;
-            if (i == 1)
-            {
-                animator.SetBool("orc", true);
-            }
-
-            else if (i == 3)
-            {
-                animator.SetBool("Talk", true);
-            }
-            else if (i == 5)
-            {
-                i = 0;
-            }
-            else
-            {
-                animator.SetBool("Idle", true);
-            }
+        animator.SetBool("Hello",true);
+        //Invoke("DelayMethod", 3.0f);
         }
+        else if (time < 9f && time >= 6f)
+        {
+                animator.SetBool("Hello",false);
+        }
+        else if (time < 15f && time >= 9f)
+        {
+            animator.SetBool("Talk", true);
+        }
+        else if (time >= 15f)
+        {
+            animator.SetBool("Talk", false);
+        }
+
     }
+
+
 }
