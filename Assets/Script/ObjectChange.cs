@@ -127,8 +127,18 @@ public class ObjectChange : MonoBehaviour
             Destroy(OldObj);
             OldObj = Instantiate(gameObjects[number], new Vector3(0, -10, -460), Quaternion.Euler(0, 180, 0));
         }
+        else if (number == 4)
+        {
+            Destroy(OldObj);
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, -2.5f, -490), Quaternion.Euler(0, 180, 0));
+        }
+        else if (number == 5)
+        {
+            Destroy(OldObj);
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, -2.5f, -490), Quaternion.Euler(0, 180, 0));
+        }
 
-      number++;
+        number++;
     }
 
     public void OnReset()
