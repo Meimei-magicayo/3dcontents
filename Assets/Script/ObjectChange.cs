@@ -104,8 +104,9 @@ public class ObjectChange : MonoBehaviour
         }
         if (number == 0)
         {
-            OldObj=Instantiate(gameObjects[0], new Vector3(0, -10, -460), Quaternion.Euler(0,180,0));
-            
+            OldObj = Instantiate(gameObjects[0], new Vector3(0, 0,-460), Quaternion.Euler(0, 0, 0));
+            //OldObj=Instantiate(gameObjects[0], new Vector3(0, -10, -460), Quaternion.Euler(0,180,0));
+
         }
            
             
@@ -113,30 +114,41 @@ public class ObjectChange : MonoBehaviour
         else if (number == 1)
         {
             Destroy(OldObj);
-            OldObj = Instantiate(gameObjects[number], new Vector3(0, -10, -460), Quaternion.Euler(0, 180, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
 
         }
         else if (number == 2)
         {
             Destroy(OldObj);
-            OldObj = Instantiate(gameObjects[number], new Vector3(0, -10, -460), Quaternion.Euler(0, 180, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
 
         }
         else if (number == 3)
         {
             Destroy(OldObj);
-            OldObj = Instantiate(gameObjects[number], new Vector3(0, -10, -460), Quaternion.Euler(0, 180, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
         }
         else if (number == 4)
         {
             Destroy(OldObj);
-            OldObj = Instantiate(gameObjects[number], new Vector3(0, -2.5f, -490), Quaternion.Euler(0, 180, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -490), Quaternion.Euler(0, 0, 0));
         }
         else if (number == 5)
         {
             Destroy(OldObj);
-            OldObj = Instantiate(gameObjects[number], new Vector3(0, -2.5f, -490), Quaternion.Euler(0, 180, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -490), Quaternion.Euler(0, 0, 0));
         }
+        else if (number == 6)
+        {
+            Destroy(OldObj);
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
+        }
+        else if (number == 7)
+        {
+            Destroy(OldObj);
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
+        }
+
 
         number++;
     }

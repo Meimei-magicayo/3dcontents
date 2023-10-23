@@ -927,7 +927,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3306944705536877400}
   - component: {fileID: 8864364331255445794}
-  - component: {fileID: 2734274473079361101}
   - component: {fileID: 229209604277172744}
   - component: {fileID: 8629678405083864479}
   - component: {fileID: 7599097260377006783}
@@ -981,19 +980,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2734274473079361101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2787569963346573794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c8f2932ea38e4d8eb6cb711683e0255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2787569963346573794}
 --- !u!54 &229209604277172744
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1460,6 +1446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8403094558086241743}
   - component: {fileID: 99960496420723988}
+  - component: {fileID: 2175427263986402197}
   m_Layer: 0
   m_Name: Ch31_Sweater
   m_TagString: Untagged
@@ -1563,6 +1550,22 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0024724752, y: 0.24587241, z: 0.031977534}
     m_Extent: {x: 0.4311182, y: 0.37855515, z: 0.2833389}
   m_DirtyAABB: 0
+--- !u!54 &2175427263986402197
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266315726020338818}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4361828057056692424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,6 +1608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4583545790931110018}
   - component: {fileID: 5114329697711274806}
+  - component: {fileID: 6618089669785260438}
   m_Layer: 0
   m_Name: Ch31_Body
   m_TagString: Untagged
@@ -1740,6 +1744,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.020596325, y: -0.3330462, z: 0.27042818}
     m_Extent: {x: 0.3814057, y: 0.81322336, z: 0.39185196}
   m_DirtyAABB: 0
+--- !u!114 &6618089669785260438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547467730053497386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8f2932ea38e4d8eb6cb711683e0255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 4547467730053497386}
 --- !u!1 &4619124608750409840
 GameObject:
   m_ObjectHideFlags: 0
