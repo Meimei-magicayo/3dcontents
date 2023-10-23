@@ -29,8 +29,8 @@ public class defaultposition : MonoBehaviour
             gameObjects[i].transform.rotation =new Vector3(0,0,0);
         }*/
         //gameObjects.GetComponent<ObjCtrl>().enabled = false;
-        gameObjects.transform.position = initialPos;
-        gameObjects.transform.rotation = initialRot;
+        gameObjects.transform.position = new Vector3(0,0,0);
+        gameObjects.transform.rotation = Quaternion.Euler(0,0,0);
         //gameObjects.GetComponent<ObjCtrl>().enabled = true;
 
     }
