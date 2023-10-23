@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/tytle.unity
     guid: 4dbcc1254c7584b8780ee884cd86894c
-  - enabled: 0
+  - enabled: 1
     path: Assets/samplescene.unity
     guid: 7165ff01d4d564f199b91c8941096a27
   m_configObjects: {}
