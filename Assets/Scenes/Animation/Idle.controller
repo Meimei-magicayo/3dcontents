@@ -36,7 +36,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Hello
+    m_ConditionEvent: Bye
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2785589597653154521}
@@ -88,7 +88,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Hello
+    m_ConditionEvent: Bye
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6499212731796562375}
@@ -140,7 +140,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Talk
+    m_ConditionEvent: Hello
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2785589597653154521}
@@ -229,7 +229,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: Point
+    m_ConditionEvent: Sorry
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2785589597653154521}
@@ -252,7 +252,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Point
+  m_Name: Sorry
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -266,7 +266,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 0ad9cf42d47ad46ca9aa179186c49ed7, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: c8f0a753b1d2749b6b40bacaefebf53a, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -306,13 +306,13 @@ AnimatorController:
   m_Name: Idle
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Hello
+  - m_Name: Bye
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Talk
+  - m_Name: Hello
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -324,7 +324,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Point
+  - m_Name: Sorry
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -352,7 +352,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Talk
+    m_ConditionEvent: Hello
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8584221774542276973}
@@ -377,7 +377,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Point
+    m_ConditionEvent: Sorry
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1601278555962538375}
