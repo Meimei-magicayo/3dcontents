@@ -84,9 +84,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8079497477895090047}
     m_Modifications:
+    - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+      propertyPath: sound1
+      value: 
+      objectReference: {fileID: 8300000, guid: 84c5cbad058b846f8b0a82612138aaf9, type: 3}
+    - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+      propertyPath: sound2
+      value: 
+      objectReference: {fileID: 8300000, guid: aa973b61ddb56487fade274dc39ce1c2, type: 3}
+    - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+      propertyPath: sound3
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c312b5ac6430424a83697fbd88fbe9e, type: 3}
+    - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+      propertyPath: sound4
+      value: 
+      objectReference: {fileID: 8300000, guid: b001e837c23fb48499cd10d5f07eba7b, type: 3}
     - target: {fileID: 7061582251341614974, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: m_Name
       value: "\u30EA\u30A2\u30EB\u5973\u6027\u82E5\u5E74"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061582251341614974, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+      propertyPath: m_TagString
+      value: W
       objectReference: {fileID: 0}
     - target: {fileID: 7688795788328818116, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: m_RootOrder
@@ -139,3 +159,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7688795788328818116, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
   m_PrefabInstance: {fileID: 1733723782875052802}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8786711149392589948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7061582251341614974, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
+  m_PrefabInstance: {fileID: 1733723782875052802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2504953761073212153
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8786711149392589948}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

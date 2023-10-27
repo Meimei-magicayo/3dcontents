@@ -21,16 +21,13 @@ public class countanim : MonoBehaviour
     {
         if (this.gameObject.tag == "M")
         {
-        audioSource.volume = 1;
+        audioSource.volume = 0.5f;
         }
         else if (this.gameObject.tag == "W")
         {
-            audioSource.volume = 0.2f;
+            audioSource.volume = 0.1f;
         }
-        else if (this.gameObject.tag == "WT")
-        {
-            audioSource.volume = 0.09f;
-        }
+
         this.time += Time.deltaTime;
         if (3.5f > time && time >= 3)
         {
