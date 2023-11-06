@@ -7,6 +7,10 @@ public class ObjectChange : MonoBehaviour
 {
     [SerializeField]
     public GameObject[] gameObjects;
+    [SerializeField]
+    private Quaternion[] initialRot;
+
+    [SerializeField] private Vector3[] initialPos;
     public int i,n,a,b,c,d;
     public int Randnumber;
     public int number=0;
@@ -17,6 +21,8 @@ public class ObjectChange : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+
         n = 1;
     }
 
@@ -104,7 +110,7 @@ public class ObjectChange : MonoBehaviour
         }
         if (number == 0)
         {
-            OldObj = Instantiate(gameObjects[0], new Vector3(0, 0,-460), Quaternion.Euler(0, 0, 0));
+            OldObj = Instantiate(gameObjects[number], new Vector3(0, 0,-460), Quaternion.Euler(0, 0, 0));
             //OldObj=Instantiate(gameObjects[0], new Vector3(0, -10, -460), Quaternion.Euler(0,180,0));
 
         }
@@ -115,13 +121,11 @@ public class ObjectChange : MonoBehaviour
         {
             Destroy(OldObj);
             OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
-
         }
         else if (number == 2)
         {
             Destroy(OldObj);
             OldObj = Instantiate(gameObjects[number], new Vector3(0, 0, -460), Quaternion.Euler(0, 0, 0));
-
         }
         else if (number == 3)
         {
@@ -194,8 +198,8 @@ public class ObjectChange : MonoBehaviour
 
     public void OnReset()
     {
-
-        OldObj.transform.Rotate(0, 0, 0);
+        gameObjects[number].transform.rotation = initialRot[number];
+       gameObjects[number].transform.position = initialPos[number];
     }
 }
 
