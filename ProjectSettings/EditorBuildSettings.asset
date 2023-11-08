@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/tytle.unity
     guid: 4dbcc1254c7584b8780ee884cd86894c
   - enabled: 1
+    path: Assets/Scenes/setumeidesu.unity
+    guid: df05f475748834308af8ba2ef627b1a5
+  - enabled: 1
     path: Assets/samplescene.unity
     guid: 7165ff01d4d564f199b91c8941096a27
   m_configObjects: {}
