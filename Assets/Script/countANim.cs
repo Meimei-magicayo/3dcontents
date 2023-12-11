@@ -7,12 +7,13 @@ public class countanim : MonoBehaviour
     bool AudioSet;
     float time=0;
     Animator animator;
-    AudioSource audioSource;
+    public AudioSource audioSource;
     public AudioClip sound1, sound2, sound3, sound4;
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        
         animator = GetComponent<Animator>();
     }
 
@@ -21,29 +22,36 @@ public class countanim : MonoBehaviour
     {
         if (this.gameObject.tag == "M")
         {
-        audioSource.volume = 0.5f;
+            audioSource.volume = 0.5f;
+
         }
+  
         else if (this.gameObject.tag == "W")
         {
             audioSource.volume = 0.1f;
+
         }
 
         this.time += Time.deltaTime;
         if (3.5f > time && time >= 3)
         {
-           audioSource.PlayOneShot(sound1);
+            audioSource.clip = sound1;
+           audioSource.Play();
         }
         if (13.5f > time && time >= 13)
         {
-            audioSource.PlayOneShot(sound2);
+            audioSource.clip = sound2;
+            audioSource.Play();
         }
         if (19.5f > time && time >= 19)
         {
-            audioSource.PlayOneShot(sound3);
+            audioSource.clip = sound3;
+            audioSource.Play();
         }
         if (24.5f > time && time >= 24)
         {
-            audioSource.PlayOneShot(sound4);
+            audioSource.clip = sound4;
+            audioSource.Play();
         }
     
         

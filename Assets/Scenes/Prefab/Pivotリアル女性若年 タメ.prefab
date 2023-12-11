@@ -87,19 +87,19 @@ PrefabInstance:
     - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: sound1
       value: 
-      objectReference: {fileID: 8300000, guid: d46c1eb830480427abb8c638e0dd4a63, type: 3}
+      objectReference: {fileID: 8300000, guid: 0b6650c8da62543c8bfaac7afcf490c4, type: 3}
     - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: sound2
       value: 
-      objectReference: {fileID: 8300000, guid: f6cb84bfe750d42358e2a33c9bef5920, type: 3}
+      objectReference: {fileID: 8300000, guid: 159ea9ce6c57744788255af15360be79, type: 3}
     - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: sound3
       value: 
-      objectReference: {fileID: 8300000, guid: 26e6d359fbdf146819a1e203216934a3, type: 3}
+      objectReference: {fileID: 8300000, guid: 7bed58794f2d843d3a1e508dc055d7a1, type: 3}
     - target: {fileID: 6563134073648459128, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: sound4
       value: 
-      objectReference: {fileID: 8300000, guid: a7f264e8b25e840d48febd21e5c767e8, type: 3}
+      objectReference: {fileID: 8300000, guid: e19675f5c39bb4d848f2c20b1e2e2693, type: 3}
     - target: {fileID: 7061582251341614974, guid: e21cfec62ed2c4b5cb65c00014d75733, type: 3}
       propertyPath: m_Name
       value: "\u30EA\u30A2\u30EB\u5973\u6027\u82E5\u5E74"

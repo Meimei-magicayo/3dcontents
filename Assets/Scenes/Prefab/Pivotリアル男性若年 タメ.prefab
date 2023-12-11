@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1418216486708267758}
   m_Layer: 0
   m_Name: "Pivot\u30EA\u30A2\u30EB\u7537\u6027\u82E5\u5E74 \u30BF\u30E1"
-  m_TagString: Untagged
+  m_TagString: M
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,19 +139,19 @@ PrefabInstance:
     - target: {fileID: 6075461314144240594, guid: 53af7073d53f14f3ca1abcc165888246, type: 3}
       propertyPath: sound1
       value: 
-      objectReference: {fileID: 8300000, guid: dd43336e532e5414284c8af4f2bb2e95, type: 3}
+      objectReference: {fileID: 8300000, guid: fcaf11a1e92054d619c420a8f5c82b95, type: 3}
     - target: {fileID: 6075461314144240594, guid: 53af7073d53f14f3ca1abcc165888246, type: 3}
       propertyPath: sound2
       value: 
-      objectReference: {fileID: 8300000, guid: 12c540ebfeb60462c9774608077fa545, type: 3}
+      objectReference: {fileID: 8300000, guid: e8dc9c8ccd00f49428a69ad5993b64da, type: 3}
     - target: {fileID: 6075461314144240594, guid: 53af7073d53f14f3ca1abcc165888246, type: 3}
       propertyPath: sound3
       value: 
-      objectReference: {fileID: 8300000, guid: 95eee00577b1245e79dd93b294503976, type: 3}
+      objectReference: {fileID: 8300000, guid: d85b9113566324a2dadc3395ed01f2d4, type: 3}
     - target: {fileID: 6075461314144240594, guid: 53af7073d53f14f3ca1abcc165888246, type: 3}
       propertyPath: sound4
       value: 
-      objectReference: {fileID: 8300000, guid: a20d69d4912024972bf2ee226bc9596c, type: 3}
+      objectReference: {fileID: 8300000, guid: 1c4a4bd9aecf246deb1bf99c5aafcf42, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53af7073d53f14f3ca1abcc165888246, type: 3}
 --- !u!4 &312851582635293208 stripped
